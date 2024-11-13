@@ -315,6 +315,7 @@ def main(args):
     print("loading PTMs")
     net_list, net_arch_list = load_ptm(args)
 
+    args.total_model = len(net_list)
     # prepare fake data
     all_graphs = []
     all_labels = []
