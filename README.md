@@ -1,2 +1,2 @@
 # GFMA
-A post-training method for gnn-merging
+A post-training method for GNNs-Merging
